@@ -1,0 +1,40 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# MyBad database
+mybad2.db
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.spec
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local exclude list (optional personal)
+mybad_exclude.txt
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
